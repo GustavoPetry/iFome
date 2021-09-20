@@ -103,12 +103,14 @@ export default function RegisterPfTwo({ navigation }) {
 
                     <View style={styles.containerInputs}>
                         <View style={styles.inputKeyOne} >
-                            <TextInput style={styles.TextInput}
+                            <TextInput secureTextEntry={true}
+                            style={styles.TextInput}
                                 placeholder="Senha*">
                             </TextInput>
                         </View>
                         <View style={styles.inputKey} >
-                            <TextInput style={styles.TextInput}
+                            <TextInput secureTextEntry={true}
+                                style={styles.TextInput}
                                 placeholder="Confirmar senha*">
                             </TextInput>
                         </View>
