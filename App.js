@@ -9,7 +9,7 @@ import Home from './src/pages/Login';
 import Register from './src/pages/Register/';
 import RegisterPfOne from './src/pages/RegisterPfOne';
 import RegisterPfTwo from './src/pages/RegisterPfTwo';
-import None from './src/pages/None';
+import Inicial from './src/pages/Inicial';
 
 
 
@@ -23,7 +23,7 @@ function App() {
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="RegisterPfOne" component={RegisterPfOne} />
         <Stack.Screen name="RegisterPfOne" component={RegisterPfTwo} />
-        <Stack.Screen name="None" component={None} />
+        <Stack.Screen name="Inicial" component={Inicial} />
       </Stack.Navigator>
     </NavigationContainer>
   );

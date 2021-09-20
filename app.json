@@ -2,14 +2,11 @@
   "expo": {
     "name": "iFomeLogin",
     "slug": "iFomeLogin",
-<<<<<<< HEAD
     "platforms":[
       "ios",
       "android",
       "web"
     ],
-=======
->>>>>>> 45797edbbafc35f714805b8ebab9f45ce60dbb89
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,7 +26,6 @@
     },
     "android": {
       "adaptiveIcon": {
-<<<<<<< HEAD
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }, 
@@ -38,14 +34,6 @@
           "apiKey": "AIzaSyBZ2uGLpptpOgUGjNziAXjfpgM7h5VfGIo"
         }
       }
-=======
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
->>>>>>> 45797edbbafc35f714805b8ebab9f45ce60dbb89
     }
   }
 }
