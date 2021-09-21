@@ -22,7 +22,7 @@ function App() {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="RegisterPfOne" component={RegisterPfOne} />
-        <Stack.Screen name="RegisterPfOne" component={RegisterPfTwo} />
+        <Stack.Screen name="RegisterPfTwo" component={RegisterPfTwo} />
         <Stack.Screen name="Inicial" component={Inicial} />
       </Stack.Navigator>
     </NavigationContainer>
