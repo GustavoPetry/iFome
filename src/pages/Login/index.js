@@ -39,7 +39,8 @@ export default function Home({ navigation }) {
             <View style={{ margin: 5 }}>
               <Image source={require('../../assets/lock_icon.png')} style={styles.passwordIcon} />
             </View>
-            <TextInput style={styles.TextInput}
+            <TextInput secureTextEntry={true} 
+            style={styles.TextInput}
               placeholder="Senha">
             </TextInput>
           </View>
@@ -184,6 +185,10 @@ const styles = StyleSheet.create({
   }
 
 });
+
+
+// Validação e-mail
+
 
 
 
