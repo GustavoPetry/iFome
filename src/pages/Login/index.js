@@ -54,18 +54,20 @@ export default function Home({ navigation }) {
 
 
           <View style={styles.containerButtonLogin}>
-            <LinearGradient
-              // Background Linear Gradient
-              colors={['rgba(0,0,0,0.8)', 'transparent']}
-              style={styles.backgroundButton}
-            />
-            <LinearGradient
-              // Button Linear Gradient
-              colors={['#991212', '#C30459']}
-              style={styles.buttonLogin}>
-              <Text style={styles.textButtonLogin}>Entrar</Text>
-            </LinearGradient>
-          </View>
+                        <TouchableOpacity onPress={() => navigation.navigate('Inicial')}>
+                            <LinearGradient
+                                // Background Linear Gradient
+                                colors={['rgba(0,0,0,0.8)', 'transparent']}
+                                style={styles.backgroundButton}
+                            />
+                            <LinearGradient
+                                // Button Linear Gradient
+                                colors={['#991212', '#C30459']}
+                                style={styles.buttonLogin}>
+                                <Text style={styles.textButtonLogin}>Entrar</Text>
+                            </LinearGradient>
+                        </TouchableOpacity>
+                    </View>
 
           <View style={styles.registerLogin}>
             <TouchableOpacity onPress={ () => navigation.navigate('Register')}>

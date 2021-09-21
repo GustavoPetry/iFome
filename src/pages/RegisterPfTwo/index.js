@@ -115,11 +115,8 @@ export default function RegisterPfTwo({ navigation }) {
                             </TextInput>
                         </View>
                     </View>
-
-
-
                     <View style={styles.containerButtonLogin}>
-                        <TouchableOpacity onPress={() => navigation.navigate('None')}>
+                        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                             <LinearGradient
                                 // Background Linear Gradient
                                 colors={['rgba(0,0,0,0.8)', 'transparent']}

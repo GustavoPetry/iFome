@@ -5,9 +5,60 @@ import {
     KeyboardAvoidingView, Keyboard, TouchableWithoutFeedback, Platform
 } from 'react-native';
 
-import MapView from 'react-native-maps';
+import MapView, {Marker} from 'react-native-maps';
 
 export default function App() {
+    const response = [
+        {
+          id: '1',
+          coordinates: {
+            latitude: -23.616801968301022,
+            longitude:  -46.72426002386567
+          },
+          title: 'Mapa da Doação',
+          description: 'União de Moradores de Paraisópolis',
+        },
+        {
+          id: '2',
+          coordinates: {
+            latitude: -23.61328080161387, 
+            longitude: -46.65635613126905,
+          },
+          title: 'Prefeitura de São Paulo',
+          description: 'Programa Cidade Solidária',
+          category: 1,
+        },
+        {
+          id: '3',
+          coordinates: {
+            latitude: -23.486652484812343, 
+            longitude: -46.58151680058471,
+          },
+          title: 'Restaurante Mocotó',
+          description: 'Programa Quebrada Alimentada',
+          category: 1,
+        },
+        {
+          id: '4',
+          coordinates: {
+            latitude: -23.617042303304874, 
+            longitude: -46.59074122756718,
+          },
+          title: 'UNAS',
+          description: 'União de Núcleos, Associações dos Moradores de Heliópolis',
+          category: 1,
+        },
+        {
+          id: '5',
+          coordinates: {
+            latitude: -23.60450077454592, 
+            longitude:-46.59632827968677,
+          },
+          title: 'CUFA',
+          description: 'Central Única das Favelas',
+          category: 1,
+        },
+      ]
     return (
 
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
@@ -19,7 +70,7 @@ export default function App() {
                         <Image source={require('../../assets/searchIcon.png')} style={styles.searchIcon} />
                     </View>
                     <TextInput style={styles.TextInput}
-                        placeholder="Buscar alimentos">
+                        placeholder="Pesquise uma ONG perto de você! 🥰 ">
                     </TextInput>
                 </View>
 
@@ -28,12 +79,23 @@ export default function App() {
                 <MapView
                     style={styles.map}
                     initialRegion={{
-                        latitude: -23.5438,
-                        longitude: -46.6419,
+                        latitude: -23.594672996909658 ,
+                        longitude:-46.68702956931429 ,
                         latitudeDelta: 0.0922,
                         longitudeDelta: 0.0421,
+                       
                     }}
-                />
+                > 
+                    {response.map(marker => (
+                    <MapView.Marker
+                        key={marker.id}
+                        coordinate={marker.coordinates}
+                        title={marker.title}
+                        description={marker.description}
+                    >
+                    </MapView.Marker>
+                   ))}
+                </MapView > 
 
                 <View style={styles.dividingLineTwo} />
 
@@ -50,7 +112,7 @@ export default function App() {
                         <Image source={require('../../assets/vector_03.png')} style={styles.searchIconBoxThree} />
                         <Text style={styles.boxText}>Doar</Text>
                     </View>
-                    <View style={{ margin: 5, alignSelf: 'flex-start',  paddingLeft: 19, paddingTop: 8  }}>
+                    <View style={{ margin: 5, alignelf: 'flex-start',  paddingLeft: 19, paddingTop: 8  }}>
                         <Image source={require('../../assets/vector_04.png')} style={styles.searchIconBoxFour} />
                         <Text style={styles.boxText}>Mensagens</Text>
                     </View>
