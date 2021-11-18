@@ -10,13 +10,9 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 
-
-
-
-
 export default function Home({ navigation }) {
   return (
-    
+
     <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
 
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
@@ -39,8 +35,8 @@ export default function Home({ navigation }) {
             <View style={{ margin: 5 }}>
               <Image source={require('../../assets/lock_icon.png')} style={styles.passwordIcon} />
             </View>
-            <TextInput secureTextEntry={true} 
-            style={styles.TextInput}
+            <TextInput secureTextEntry={true}
+              style={styles.TextInput}
               placeholder="Senha">
             </TextInput>
           </View>
@@ -54,23 +50,23 @@ export default function Home({ navigation }) {
 
 
           <View style={styles.containerButtonLogin}>
-                        <TouchableOpacity onPress={() => navigation.navigate('Inicial')}>
-                            <LinearGradient
-                                // Background Linear Gradient
-                                colors={['rgba(0,0,0,0.8)', 'transparent']}
-                                style={styles.backgroundButton}
-                            />
-                            <LinearGradient
-                                // Button Linear Gradient
-                                colors={['#991212', '#C30459']}
-                                style={styles.buttonLogin}>
-                                <Text style={styles.textButtonLogin}>Entrar</Text>
-                            </LinearGradient>
-                        </TouchableOpacity>
-                    </View>
+            <TouchableOpacity onPress={() => navigation.navigate('Inicial')}>
+              <LinearGradient
+                // Background Linear Gradient
+                colors={['rgba(0,0,0,0.8)', 'transparent']}
+                style={styles.backgroundButton}
+              />
+              <LinearGradient
+                // Button Linear Gradient
+                colors={['#991212', '#C30459']}
+                style={styles.buttonLogin}>
+                <Text style={styles.textButtonLogin}>Entrar</Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </View>
 
           <View style={styles.registerLogin}>
-            <TouchableOpacity onPress={ () => navigation.navigate('Register')}>
+            <TouchableOpacity onPress={() => navigation.navigate('Register')}>
               <Text style={styles.RegisterText}>Você não tem uma conta? <Text style={styles.RegisterTextBoldAlert}>Cadastre-se</Text></Text>
             </TouchableOpacity>
           </View>
@@ -128,7 +124,7 @@ const styles = StyleSheet.create({
     padding: 10,
     alignSelf: 'flex-start',
   },
-  
+
   passwordIcon: {
     width: 21,
     height: 21,
