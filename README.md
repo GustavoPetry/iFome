@@ -16,7 +16,9 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br /><br />
 ![Sam_Opening](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_Desktop_Mobile.png)<br />
 ## Dicas para instalação ⬇️
-**1º)** Instale a node_modules através do comando: **npm install**
+**1º) Instale a node_modules através do comando: **npm install**
+**2º) Entre na pasta do projeto através do CMD e digite o comando: **expo start** para abrir o projeto com o Expo.
+**3º) O navegador deverá abrir automaticamente, após clique no botão lateral esquerdo: **Run on Android device/emulator**
 <br />
 <br />
 ![Ifome_Desktop_Mobile](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Desktop_Mobile.png)
