@@ -19,7 +19,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 1️⃣ Instale a node_modules através do comando: **npm install**<br />
 2️⃣ Entre na pasta do projeto através do CMD e digite o comando: **expo start** para abrir o projeto com o Expo.<br />
 3️⃣ O navegador deverá abrir automaticamente, após clique no botão lateral esquerdo: **Run on Android device/emulator**<br />
- ❗ RECOMENDAMOS QUE VOCÊ USE O EMULADOR **PIXEL 4** PARA TESTES. ELE PODE SER BAIXADO ATRAVÉS DO ANDROID STUDIO EM AVD MANAGER<br />
+ ❗ RECOMENDAMOS QUE USE O EMULADOR **PIXEL 4** PARA TESTES. ELE PODE SER BAIXADO PELO ANDROID STUDIO EM: AVD MANAGER<br />
 <br />
 <br />
 ![Ifome_Desktop_Mobile](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Desktop_Mobile.png)
