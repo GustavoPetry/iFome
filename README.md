@@ -1,4 +1,4 @@
-![Ifome_Cover](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_Cover.png)
+![Ifome_Cover](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_xover.png)
 <br />
 <br />
 ## 🎗️ Ifome
