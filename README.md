@@ -13,7 +13,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 <br />
 
 **📊 Ajude o repositório do IFome a ter mais visualizações**<br />
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br />
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br /><br />
 ![Sam_Opening](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Opening.png)
 ## O Autismo e a Quarentena
 Sem dúvida a quarentena trouxe mudanças, causando impacto na vida de todos nós. Os pais de crianças com o Transtorno do Espectro Autista (TEA) tiveram suas rotinas transformadas por conta da
