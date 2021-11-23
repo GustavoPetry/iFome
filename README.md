@@ -15,10 +15,8 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 **📊 Ajude o repositório do IFome a ter mais visualizações**<br /><br />
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br /><br />
 ![Sam_Opening](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_Desktop_Mobile.png)<br />
-## Dicas para instalação
-1) Instale a node_modules através do comando: *npm install*
-instauração da quarentena, devido ao novo coronavírus. As mudanças de rotina por conta da pandemia podem
-gerar um impacto negativo para as crianças com autismo. O SAM, nosso "robozinho", veio para dar uma ajuda especial para uma parte da sociedade que deve ser vista com muito carinho ❤️<br /><br />**Veja logo abaixo as funcionalidades e ferramentas usadas na criação do SAM** ⬇️
+## Dicas para instalação ⬇️
+**1º)** Instale a node_modules através do comando: **npm install**
 <br />
 <br />
 ![Ifome_Desktop_Mobile](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Desktop_Mobile.png)
