@@ -18,11 +18,14 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 ## Dicas para instalação ⬇️
 1️⃣ Instale a node_modules através do comando: **npm install**<br />
 2️⃣ Entre na pasta do projeto através do CMD e digite o comando: **expo start** para abrir o projeto com o Expo.<br />
-3️⃣ O navegador deverá abrir automaticamente, após clique no botão lateral esquerdo: **Run on Android device/emulator**<br />
- ❗ RECOMENDAMOS QUE USE O EMULADOR **PIXEL 4** PARA TESTES. ELE PODE SER BAIXADO PELO ANDROID STUDIO (AVD MANAGER)<br />
+3️⃣ O navegador deverá abrir automaticamente, após clique no botão lateral esquerdo: **Run on Android device/emulator**.<br />
+ ❗ RECOMENDAMOS QUE USE O EMULADOR **PIXEL 4** PARA TESTES. ELE PODE SER BAIXADO PELO ANDROID STUDIO (AVD MANAGER).<br />
 <br />
 <br />
-![Ifome_Desktop_Mobile](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Desktop_Mobile.png)
+![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_login_image.png)<br />
+![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_home_image.png)<br />
+![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doar_image.png)<br />
+![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
 ## Usabilidade e criação
 O SAM funciona de forma responsiva. Ou seja, sempre que entrar no site, ele irá se adequar ao tamanho da sua tela. Funcionando muito bem em seu celular ou computador, levando praticidade na hora de responder suas dúvidas ou dicas, o SAM foi criado para vencer barreiras e distâncias.<br /><br />
 ![Sam_Ending](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Ending.png)
