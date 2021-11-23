@@ -23,7 +23,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 <br />
 <br />
 ## ----- Telas e usabilidade -----<br /><br />
-## Tela de Login <br />
+# Tela de Login <br />
 ![Ifome_Login](https://github.com/GustavoPetry/Ifome/blob/master/ifome_login_image.png)<br />
 - Esta é a tela de login, ela já esta habilitada para qualquer user e senha conseguir entrar no aplicativo.<br /><br />
 ![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_home_image.png)<br />
