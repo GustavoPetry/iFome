@@ -1,7 +1,7 @@
 ![Ifome_Cover](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_Cover.png)
 <br />
 <br />
-## 🤖 Sam-Chatbot
+## 🎗️ Sam-Chatbot
 O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quarentena, podendo dar diversas dicas e auxiliá-los com dúvidas e problemas no seu dia a dia. Além de conscientizar a sociedade e direcionar uma visão específica da causa para o futuro.
 
 **💻 Linguagens usadas para a criação:**
