@@ -22,10 +22,13 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
  ❗ RECOMENDAMOS QUE USE O EMULADOR **PIXEL 4** PARA TESTES. ELE PODE SER BAIXADO PELO ANDROID STUDIO (AVD MANAGER).<br />
 <br />
 <br />
-![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_login_image.png)<br />
+## Telas e usabilidade
+![Ifome_Login](https://github.com/GustavoPetry/Ifome/blob/master/ifome_login_image.png)<br />
+- Esta é a tela de login, ela já esta habilitada para qualquer user e senha conseguir entrar no aplicativo.<br /><br />
 ![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_home_image.png)<br />
-![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doar_image.png)<br />
-![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
+- Aqui é a nossa Home, onde futuramente o usuário poderá filtrar a ONG mais próxima dele através desta tela. Enquanto isso, o GoogleMaps já está disponível para testes de usabilidade.<br /><br />
+![Ifome_Doar](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doar_image.png)<br />
+![Ifome_Doacao](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
 ## Usabilidade e criação
 O SAM funciona de forma responsiva. Ou seja, sempre que entrar no site, ele irá se adequar ao tamanho da sua tela. Funcionando muito bem em seu celular ou computador, levando praticidade na hora de responder suas dúvidas ou dicas, o SAM foi criado para vencer barreiras e distâncias.<br /><br />
 ![Sam_Ending](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Ending.png)
