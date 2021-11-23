@@ -6,10 +6,10 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 
 **💻 Linguagens usadas para a criação:**
 
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)<br />
+- ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br />
 - ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)<br />
-- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)<br />
-- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)<br />
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)<br />
+- ![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)<br />
 - **IBM Watson**<br />
 
 **📊 Ajude o repositório do SAM a ter mais visualizações**<br /><br />
