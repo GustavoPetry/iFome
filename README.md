@@ -12,7 +12,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 - ![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)<br />
 <br />
 
-**📊 Ajude o repositório do IFome a ter mais visualizações**<br />
+**📊 Ajude o repositório do IFome a ter mais visualizações**<br /><br />
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br /><br />
 ![Sam_Opening](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Opening.png)<br />
 ## O Autismo e a Quarentena
