@@ -17,7 +17,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 
-export default function Doar({ navigation }) {
+export default function SucessoEntrega({ navigation }) {
 
 
     const [selectedValue, setSelectedValue] = useState("java");
@@ -29,92 +29,18 @@ export default function Doar({ navigation }) {
 
             <View style={styles.container}>
 
-                <View style={styles.input} >
-                    <View style={{ margin: 5, alignSelf: 'flex-start' }}>
-                        <Image source={require('../../assets/searchIcon.png')} style={styles.searchIcon} />
-                    </View>
-                    <TextInput style={styles.TextInput}
-                        placeholder="Pesquise uma ONG perto de você! 🥰 ">
-                    </TextInput>
-                </View>
-
-                <View style={styles.containerMiddle}>
-                    <Text style={styles.subTitle}>Escolha os alimentos a serem doados:</Text>
-                    <View style={styles.containerTitleInputs}>
-                        <Text style={styles.inputsTitle}>Nome do Alimento</Text>
-                        <Text style={styles.inputsTitle}>Quantidade (Kg)</Text>
-                    </View>
-                </View>
-                <View style={styles.dividingLine} />
-
-                <View style={styles.inputGeneral} >
-                    <View style={styles.inputAlimento} >
-                        <TextInput style={styles.TextInputAlimento1}
-                            placeholder="ex: arroz">
-                        </TextInput>
-                    </View>
-                    <View style={styles.inputQuantidade} >
-                        <TextInput style={styles.TextInputQuantidade}
-                            placeholder="ex: 2">
-                        </TextInput>
-                    </View>
-                </View>
-
-                <View style={styles.dividingLineTwo} />
-
-                <View style={styles.inputGeneral} >
-                    <View style={styles.inputAlimento} >
-                        <TextInput style={styles.TextInputAlimento1}
-                            placeholder="ex: arroz">
-                        </TextInput>
-                    </View>
-                    <View style={styles.inputQuantidade} >
-                        <TextInput style={styles.TextInputQuantidade}
-                            placeholder="ex: 2">
-                        </TextInput>
-                    </View>
-                </View>
-
-                <View style={styles.dividingLineTwo} />
-
-
-
-
-
-
-
-                <View style={styles.containerTeste}>
-                    <Text style={styles.inputsTitlePicker}>Escolha uma ONG</Text>
-                    <Picker
-                        selectedValue={selectedValue}
-                        style={styles.containerTestePicker}
-                        onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
-                    >
-                        <Picker.Item label="ONG Sonhar é Viver" value="Ong1" />
-                        <Picker.Item label="ONG Raiar do Sol" value="Ong2" />
-                        <Picker.Item label="ONG Semeando" value="Ong3" />
-                    </Picker>
-                </View>
-
-
-
-
-
-                <View style={styles.containerButtonLogin}>
-                    <TouchableOpacity onPress={() => navigation.navigate('SucessoDoacao')}>
-                        <LinearGradient
-                            // Background Linear Gradient
-                            colors={['rgba(0,0,0,0.8)', 'transparent']}
-                            style={styles.backgroundButton}
-                        />
-                        <LinearGradient
-                            // Button Linear Gradient
-                            colors={['#991212', '#C30459']}
-                            style={styles.buttonLogin}>
-                            <Text style={styles.textButtonLogin}>Fazer doação</Text>
-                        </LinearGradient>
+                <View>
+                    <TouchableOpacity onPress={() => navigation.navigate('Inicial')}>
+                        <Image source={require('../../assets/vector_09.png')} />
                     </TouchableOpacity>
                 </View>
+
+
+
+
+
+
+
 
 
 
@@ -129,14 +55,12 @@ export default function Doar({ navigation }) {
                             <Text style={styles.boxText}>Home</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => navigation.navigate('Doacoes')}>
-                        <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
-                            <Image source={require('../../assets/vector_02.png')} style={styles.searchIconBoxTwo} />
-                            <Text style={styles.boxText}>Doações</Text>
-                        </View>
-                    </TouchableOpacity>
+                    <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
+                        <Image source={require('../../assets/vector_02_pink.png')} style={styles.searchIconBoxTwo} />
+                        <Text style={styles.boxText}>Doações</Text>
+                    </View>
                     <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 19, paddingTop: 8 }}>
-                        <Image source={require('../../assets/heartPink.png')} style={styles.searchIconBoxThree} />
+                        <Image source={require('../../assets/vector_03.png')} style={styles.searchIconBoxThree} />
                         <Text style={styles.boxText}>Doar</Text>
                     </View>
                     <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
@@ -285,8 +209,8 @@ const styles = StyleSheet.create({
 
     containerTestePicker: {
         height: 20,
-        width: 220,
-        marginRight: 124,
+        width: 120,
+        marginRight: 219,
 
     },
 

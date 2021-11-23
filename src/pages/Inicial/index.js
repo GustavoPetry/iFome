@@ -104,10 +104,12 @@ export default function Inicial({ navigation }) {
                         <Image source={require('../../assets/vector_06_pink.png')} style={styles.searchIconBoxOne} />
                         <Text style={styles.boxText}>Home</Text>
                     </View>
-                    <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
-                        <Image source={require('../../assets/vector_02.png')} style={styles.searchIconBoxTwo} />
-                        <Text style={styles.boxText}>Doações</Text>
-                    </View>
+                    <TouchableOpacity onPress={() => navigation.navigate('Doacoes')}>
+                        <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
+                            <Image source={require('../../assets/vector_02.png')} style={styles.searchIconBoxTwo} />
+                            <Text style={styles.boxText}>Doações</Text>
+                        </View>
+                    </TouchableOpacity>
 
                     <TouchableOpacity onPress={() => navigation.navigate('Doar')}>
                         <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 19, paddingTop: 8 }} >

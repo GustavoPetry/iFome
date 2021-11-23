@@ -17,7 +17,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 
-export default function Doar({ navigation }) {
+export default function Doacoes({ navigation }) {
 
 
     const [selectedValue, setSelectedValue] = useState("java");
@@ -29,17 +29,11 @@ export default function Doar({ navigation }) {
 
             <View style={styles.container}>
 
-                <View style={styles.input} >
-                    <View style={{ margin: 5, alignSelf: 'flex-start' }}>
-                        <Image source={require('../../assets/searchIcon.png')} style={styles.searchIcon} />
-                    </View>
-                    <TextInput style={styles.TextInput}
-                        placeholder="Pesquise uma ONG perto de você! 🥰 ">
-                    </TextInput>
-                </View>
+
 
                 <View style={styles.containerMiddle}>
-                    <Text style={styles.subTitle}>Escolha os alimentos a serem doados:</Text>
+                    <Text style={styles.subTitle}>Seja bem vindo(a)! <Text style={styles.subTitle3}> ONG Raiar do Sol 👋</Text> </Text>
+                    <Text style={styles.subTitle2}>Verifique os detalhes da entrega:</Text>
                     <View style={styles.containerTitleInputs}>
                         <Text style={styles.inputsTitle}>Nome do Alimento</Text>
                         <Text style={styles.inputsTitle}>Quantidade (Kg)</Text>
@@ -50,12 +44,14 @@ export default function Doar({ navigation }) {
                 <View style={styles.inputGeneral} >
                     <View style={styles.inputAlimento} >
                         <TextInput style={styles.TextInputAlimento1}
-                            placeholder="ex: arroz">
+                            placeholder="ex: arroz"
+                            value="arroz">
                         </TextInput>
                     </View>
                     <View style={styles.inputQuantidade} >
                         <TextInput style={styles.TextInputQuantidade}
-                            placeholder="ex: 2">
+                            placeholder="ex: 2"
+                            value="3">
                         </TextInput>
                     </View>
                 </View>
@@ -65,12 +61,14 @@ export default function Doar({ navigation }) {
                 <View style={styles.inputGeneral} >
                     <View style={styles.inputAlimento} >
                         <TextInput style={styles.TextInputAlimento1}
-                            placeholder="ex: arroz">
+                            placeholder="ex: arroz"
+                            value="feijao">
                         </TextInput>
                     </View>
                     <View style={styles.inputQuantidade} >
                         <TextInput style={styles.TextInputQuantidade}
-                            placeholder="ex: 2">
+                            placeholder="ex: 2"
+                            value="4">
                         </TextInput>
                     </View>
                 </View>
@@ -79,29 +77,11 @@ export default function Doar({ navigation }) {
 
 
 
-
-
-
-
-                <View style={styles.containerTeste}>
-                    <Text style={styles.inputsTitlePicker}>Escolha uma ONG</Text>
-                    <Picker
-                        selectedValue={selectedValue}
-                        style={styles.containerTestePicker}
-                        onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
-                    >
-                        <Picker.Item label="ONG Sonhar é Viver" value="Ong1" />
-                        <Picker.Item label="ONG Raiar do Sol" value="Ong2" />
-                        <Picker.Item label="ONG Semeando" value="Ong3" />
-                    </Picker>
-                </View>
-
-
-
+                <Text style={styles.subTitle4}>Problema com a entrega?  <Text style={styles.subTitle6}>Clique aqui!</Text></Text>
 
 
                 <View style={styles.containerButtonLogin}>
-                    <TouchableOpacity onPress={() => navigation.navigate('SucessoDoacao')}>
+                    <TouchableOpacity onPress={() => navigation.navigate('SucessoEntrega')}>
                         <LinearGradient
                             // Background Linear Gradient
                             colors={['rgba(0,0,0,0.8)', 'transparent']}
@@ -111,7 +91,7 @@ export default function Doar({ navigation }) {
                             // Button Linear Gradient
                             colors={['#991212', '#C30459']}
                             style={styles.buttonLogin}>
-                            <Text style={styles.textButtonLogin}>Fazer doação</Text>
+                            <Text style={styles.textButtonLogin}>Confirmar entrega</Text>
                         </LinearGradient>
                     </TouchableOpacity>
                 </View>
@@ -129,16 +109,16 @@ export default function Doar({ navigation }) {
                             <Text style={styles.boxText}>Home</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => navigation.navigate('Doacoes')}>
-                        <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
-                            <Image source={require('../../assets/vector_02.png')} style={styles.searchIconBoxTwo} />
-                            <Text style={styles.boxText}>Doações</Text>
+                    <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
+                        <Image source={require('../../assets/vector_02_pink.png')} style={styles.searchIconBoxTwo} />
+                        <Text style={styles.boxText}>Doações</Text>
+                    </View>
+                    <TouchableOpacity onPress={() => navigation.navigate('Doar')}>
+                        <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 19, paddingTop: 8 }}>
+                            <Image source={require('../../assets/vector_03.png')} style={styles.searchIconBoxThree} />
+                            <Text style={styles.boxText}>Doar</Text>
                         </View>
                     </TouchableOpacity>
-                    <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 19, paddingTop: 8 }}>
-                        <Image source={require('../../assets/heartPink.png')} style={styles.searchIconBoxThree} />
-                        <Text style={styles.boxText}>Doar</Text>
-                    </View>
                     <View style={{ margin: 5, alignSelf: 'flex-start', paddingLeft: 18, paddingTop: 8 }}>
                         <Image source={require('../../assets/vector_05.png')} style={styles.searchIconBoxFive} />
                         <Text style={styles.boxText}>Perfil</Text>
@@ -198,7 +178,8 @@ const styles = StyleSheet.create({
     },
 
     subTitle: {
-        marginBottom: 5,
+        marginBottom: 52,
+        paddingTop: 80,
         color: '#717171',
         width: '85%'
     },
@@ -224,7 +205,35 @@ const styles = StyleSheet.create({
 
 
     // ----------------------------------------------------------------------------
+    subTitle3: {
+        marginBottom: 5,
+        color: '#717171',
+        width: '85%',
+        fontWeight: 'bold',
+        fontSize: 17
+    },
 
+    subTitle2: {
+        paddingTop: 10,
+        color: '#717171',
+        width: '85%',
+
+    },
+
+    subTitle4: {
+        marginTop: 80,
+        marginBottom: 40,
+        paddingLeft: 43,
+        color: '#717171',
+        width: '85%',
+    },
+
+    subTitle6: {
+        marginBottom: 5,
+        color: '#717171',
+        width: '85%',
+        fontWeight: 'bold',
+    },
 
     dividingLine: {
         borderBottomColor: '#BABABA',
@@ -285,15 +294,15 @@ const styles = StyleSheet.create({
 
     containerTestePicker: {
         height: 20,
-        width: 220,
-        marginRight: 124,
+        width: 120,
+        marginRight: 219,
 
     },
 
     //---------------------------  BOTÃO   ---------------------------------------
     containerButtonLogin: {
         width: '85%',
-        marginBottom: 60
+        marginBottom: 80
     },
 
     buttonLogin: {

@@ -11,6 +11,9 @@ import RegisterPfOne from './src/pages/RegisterPfOne';
 import RegisterPfTwo from './src/pages/RegisterPfTwo';
 import Inicial from './src/pages/Inicial';
 import Doar from './src/pages/Doar';
+import SucessoDoacao from './src/pages/SucessoDoacao';
+import Doacoes from './src/pages/Doacoes';
+import SucessoEntrega from './src/pages/SucessoEntrega';
 
 
 
@@ -26,6 +29,9 @@ function App() {
         <Stack.Screen name="RegisterPfTwo" component={RegisterPfTwo} />
         <Stack.Screen name="Inicial" component={Inicial} />
         <Stack.Screen name="Doar" component={Doar}/>
+        <Stack.Screen name="SucessoDoacao" component={SucessoDoacao}/>
+        <Stack.Screen name="Doacoes" component={Doacoes}/>
+        <Stack.Screen name="SucessoEntrega" component={SucessoEntrega}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
