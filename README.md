@@ -13,7 +13,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 <br />
 
 **📊 Ajude o repositório do IFome a ter mais visualizações**<br /><br />
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)<br /><br />
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Ifome)<br /><br />
 ![Sam_Opening](https://github.com/GustavoPetry/Ifome/blob/master/Ifome_Desktop_Mobile.png)<br />
 ## Dicas para instalação ⬇️
 1️⃣ Instale a node_modules através do comando: **npm install**<br />
