@@ -10,7 +10,6 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 - ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br />
 - ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)<br />
 - ![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)<br />
-- **IBM Watson**<br />
 
 **📊 Ajude o repositório do SAM a ter mais visualizações**<br /><br />
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Sam-Chatbot)
