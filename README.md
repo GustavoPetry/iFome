@@ -37,6 +37,6 @@ O Ifome é uma startup social que tem o intuito principalmente de reduzir o impa
 - Aqui temos o processo após a confirmação do envio dos alimentos pela visão PF. Nesta visão da ONG podemos confirmar se os itens são estes, caso esteja correto basta confirmar a entrega assim que for concluída.<br /><br />
 ##
 <br />
-![Sam_Ending](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Ending.png)
+![Sam_Ending](https://github.com/GustavoPetry/Ifome/blob/master/ifome_end.png)
 <br />
 
