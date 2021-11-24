@@ -3,7 +3,7 @@
 <br />
 ## 🎗️ Ifome
 O Ifome é uma startup social que tem o intuito principalmente de reduzir o impacto ambiental, social e econômico do despedício de alimentos, redistribuindo o excedente. Fazendo assim a conexão entre doadores e receptores locais.<br />
-- "Semear o futuro é importante. Cuidar das pessoas é essencial".
+"Semear o futuro é importante. Cuidar das pessoas é essencial".
 
 **💻 Linguagens usadas para a criação:**
 
