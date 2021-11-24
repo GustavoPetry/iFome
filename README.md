@@ -29,10 +29,12 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 ## Tela Home <br />
 ![Ifome_Home](https://github.com/GustavoPetry/Ifome/blob/master/ifome_home_image.png)<br />
 - Aqui é a nossa Home, onde futuramente o usuário poderá filtrar a ONG mais próxima dele através desta tela. Enquanto isso, o GoogleMaps já está disponível para testes de usabilidade.<br /><br />
-## Tela de Doação (Visão PF) <br />
+## Tela Doar (Visão PF) <br />
 ![Ifome_Doar](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doar_image.png)<br />
 - Nesta tela, trazemos a visão de uma pessoa física realizando uma doação específica para uma ONG. Nela, temos alguns inputs onde podemos passar informações (nome do alimento, quantida kg) e por último podemos também escolher uma ONG específica.<br /><br />
+## Tela Doações (Visão ONG) <br />
 ![Ifome_Doacao](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
+- Aqui temos o processo após a confirmação do envio dos alimentos pela visão PF. Nesta visão da ONG podemos confirmar se os itens são estes, caso esteja correto basta confirmar a entrega assim que for concluída.<br /><br />
 ## Usabilidade e criação
 O SAM funciona de forma responsiva. Ou seja, sempre que entrar no site, ele irá se adequar ao tamanho da sua tela. Funcionando muito bem em seu celular ou computador, levando praticidade na hora de responder suas dúvidas ou dicas, o SAM foi criado para vencer barreiras e distâncias.<br /><br />
 ![Sam_Ending](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Ending.png)
