@@ -35,8 +35,7 @@ O objetivo do SAM (Chatbot) é ajudar pais de crianças autistas durante a quare
 ## Tela Doações (Visão ONG) <br />
 ![Ifome_Doacao](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
 - Aqui temos o processo após a confirmação do envio dos alimentos pela visão PF. Nesta visão da ONG podemos confirmar se os itens são estes, caso esteja correto basta confirmar a entrega assim que for concluída.<br /><br />
-## Usabilidade e criação
-O SAM funciona de forma responsiva. Ou seja, sempre que entrar no site, ele irá se adequar ao tamanho da sua tela. Funcionando muito bem em seu celular ou computador, levando praticidade na hora de responder suas dúvidas ou dicas, o SAM foi criado para vencer barreiras e distâncias.<br /><br />
+##<br />
 ![Sam_Ending](https://github.com/GustavoPetry/Sam-Chatbot/blob/master/Sam_Ending.png)
 <br />
 <br />
