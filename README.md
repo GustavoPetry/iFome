@@ -34,7 +34,8 @@ O Ifome é uma startup social que tem o intuito principalmente de reduzir o impa
 - Nesta tela, trazemos a visão de uma pessoa física realizando uma doação específica para uma ONG. Nela, temos alguns inputs onde podemos passar informações (nome do alimento, quantida kg) e por último podemos também escolher uma ONG específica.<br /><br />
 ## Tela Doações (Visão ONG) <br />
 ![Ifome_Doacao](https://github.com/GustavoPetry/Ifome/blob/master/ifome_doacao_image.png)<br /><br />
-- Aqui temos o processo após a confirmação do envio dos alimentos pela visão PF. Nesta visão da ONG podemos confirmar se os itens são estes, caso esteja correto basta confirmar a entrega assim que for concluída.<br /><br /><br />
+- Aqui temos o processo após a confirmação do envio dos alimentos pela visão PF. Nesta visão da ONG podemos confirmar se os itens são estes, caso esteja correto basta confirmar a entrega assim que for concluída.<br /><br /><br /><br /><br />
+- ## Equipe <br />
 ![Ifome_End](https://github.com/GustavoPetry/Ifome/blob/master/ifome_end.png)
 
 
