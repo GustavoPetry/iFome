@@ -77,7 +77,7 @@ export default function Doacoes({ navigation }) {
 
 
 
-                <Text style={styles.subTitle4}>Problema com a entrega?  <Text style={styles.subTitle6}>Clique aqui!</Text></Text>
+                <Text style={styles.subTitle4}>Problemas com a recepção?  <Text style={styles.subTitle6}>Clique aqui!</Text></Text>
 
 
                 <View style={styles.containerButtonLogin}>
@@ -91,7 +91,7 @@ export default function Doacoes({ navigation }) {
                             // Button Linear Gradient
                             colors={['#991212', '#C30459']}
                             style={styles.buttonLogin}>
-                            <Text style={styles.textButtonLogin}>Confirmar entrega</Text>
+                            <Text style={styles.textButtonLogin}>Confirmar recepção</Text>
                         </LinearGradient>
                     </TouchableOpacity>
                 </View>
