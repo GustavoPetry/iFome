@@ -54,7 +54,7 @@ export default function Doacoes({ navigation }) {
                             value="3">
                         </TextInput>
                     </View>
-                    
+
                 </View>
 
                 <View style={styles.dividingLineTwo} />
@@ -72,10 +72,30 @@ export default function Doacoes({ navigation }) {
                             value="4">
                         </TextInput>
                     </View>
-                   
                 </View>
 
                 <View style={styles.dividingLineTwo} />
+
+
+
+
+
+
+                <View style={styles.input} >
+                    <View style={{ margin: 5, alignSelf: 'flex-start' }}>
+                        <Image source={require('../../assets/home.png')} style={styles.emailIcon} />
+                    </View>
+                    <TextInput style={styles.TextInput}
+                        placeholder="E-mail"
+                        value="Rua São Sebastião, 1022 - Jardim Claro">
+                    </TextInput>
+                </View>
+
+
+
+
+
+
 
                 <Text style={styles.subTitle4}>Problemas com a recepção?  <Text style={styles.subTitle6}>Clique aqui!</Text></Text>
 
@@ -145,7 +165,7 @@ const styles = StyleSheet.create({
     input: {
         width: '85%',
         height: 42,
-        backgroundColor: '#E4E4E4',
+        backgroundColor: '#FFFFFF',
         marginBottom: 10,
         padding: 8,
         borderRadius: 10,
@@ -153,6 +173,8 @@ const styles = StyleSheet.create({
         borderColor: "#999999",
         justifyContent: 'center',
         flexWrap: 'wrap',
+        borderWidth: 1,
+        borderColor: "#999999",
     },
 
     TextInput: {
@@ -178,7 +200,7 @@ const styles = StyleSheet.create({
     },
 
     subTitle: {
-        marginBottom: 52,
+        marginBottom: 50,
         paddingTop: 80,
         color: '#717171',
         width: '85%'
@@ -221,7 +243,7 @@ const styles = StyleSheet.create({
     },
 
     subTitle4: {
-        marginTop: 80,
+        marginTop: 6,
         marginBottom: 40,
         paddingLeft: 43,
         color: '#717171',
@@ -233,6 +255,13 @@ const styles = StyleSheet.create({
         color: '#717171',
         width: '85%',
         fontWeight: 'bold',
+    },
+
+    subTitle8: {
+        marginBottom: 5,
+        color: '#717171',
+        width: '85%',
+        paddingTop: 20,
     },
 
     dividingLine: {
