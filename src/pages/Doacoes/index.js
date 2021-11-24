@@ -33,7 +33,7 @@ export default function Doacoes({ navigation }) {
 
                 <View style={styles.containerMiddle}>
                     <Text style={styles.subTitle}>Seja bem vindo(a)! <Text style={styles.subTitle3}> ONG Raiar do Sol 👋</Text> </Text>
-                    <Text style={styles.subTitle2}>Verifique os detalhes da entrega:</Text>
+                    <Text style={styles.subTitle2}>Verifique os detalhes da doação:</Text>
                     <View style={styles.containerTitleInputs}>
                         <Text style={styles.inputsTitle}>Nome do Alimento</Text>
                         <Text style={styles.inputsTitle}>Quantidade (Kg)</Text>
@@ -54,6 +54,7 @@ export default function Doacoes({ navigation }) {
                             value="3">
                         </TextInput>
                     </View>
+                    
                 </View>
 
                 <View style={styles.dividingLineTwo} />
@@ -71,11 +72,10 @@ export default function Doacoes({ navigation }) {
                             value="4">
                         </TextInput>
                     </View>
+                   
                 </View>
 
                 <View style={styles.dividingLineTwo} />
-
-
 
                 <Text style={styles.subTitle4}>Problemas com a recepção?  <Text style={styles.subTitle6}>Clique aqui!</Text></Text>
 
